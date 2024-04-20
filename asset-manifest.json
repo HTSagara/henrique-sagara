@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/henrique-sagara/static/css/main.25d8d085.css",
+    "main.js": "/henrique-sagara/static/js/main.786e6aca.js",
+    "static/media/profile.png": "/henrique-sagara/static/media/profile.8a42d5a66b0b602dce2e.png",
+    "static/media/HenriqueResume.pdf": "/henrique-sagara/static/media/HenriqueResume.f0c53aa8e5f8ef8b5334.pdf",
+    "index.html": "/henrique-sagara/index.html",
+    "main.25d8d085.css.map": "/henrique-sagara/static/css/main.25d8d085.css.map",
+    "main.786e6aca.js.map": "/henrique-sagara/static/js/main.786e6aca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25d8d085.css",
+    "static/js/main.786e6aca.js"
+  ]
+}
