@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import "./Qualifications.css";
 
-const Qualifications = () =>
-{
+const Qualifications = () => {
   const [toggleState, setToggleState] = useState(0);
 
-  const toggleTab = (index) =>
-  {
+  const toggleTab = (index) => {
     setToggleState(index);
   };
   return (
@@ -101,11 +99,10 @@ const Qualifications = () =>
               <div>
                 <h3 className="qualification__title">Web developer CO-OP</h3>
                 <span className="qualification__subtitle">
-                  Ontario Government -
-                  Digital Solution and Innovation Unit
+                  Ontario Government - Digital Solution and Innovation Unit
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>07/2023 – 05/2024
+                  <i className="uil uil-calendar-alt"></i>09/2023 – 05/2024
                 </div>
               </div>
 
