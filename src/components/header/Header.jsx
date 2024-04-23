@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./Header.css";
 
-export const Header = () => {
-  window.addEventListener("scroll", function () {
+export const Header = () =>
+{
+  window.addEventListener("scroll", function ()
+  {
     const header = document.querySelector(".header");
     this.scrollY >= 80
       ? header.classList.add("scroll-header")
@@ -60,7 +62,7 @@ export const Header = () => {
 
             <li className="nav__item">
               <a
-                href="porfolio"
+                href="#portfolio"
                 onClick={() => setActiveNav("#portfolio")}
                 className={
                   activeNav === "#portfolio"
