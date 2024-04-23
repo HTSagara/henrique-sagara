@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/henrique-sagara/static/css/main.ad35ebec.css",
-    "main.js": "/henrique-sagara/static/js/main.f3b255b7.js",
-    "static/media/profile.png": "/henrique-sagara/static/media/profile.8a42d5a66b0b602dce2e.png",
+    "main.css": "/henrique-sagara/static/css/main.aba76938.css",
+    "main.js": "/henrique-sagara/static/js/main.936b03ea.js",
+    "static/media/profile.JPG": "/henrique-sagara/static/media/profile.68df12742f8a9e9949b5.JPG",
+    "static/media/about.png": "/henrique-sagara/static/media/about.8a42d5a66b0b602dce2e.png",
     "static/media/HenriqueResume.pdf": "/henrique-sagara/static/media/HenriqueResume.f0c53aa8e5f8ef8b5334.pdf",
     "static/media/work1.jpg": "/henrique-sagara/static/media/work1.9a8e21dbea40aba70f49.jpg",
     "static/media/work4.jpg": "/henrique-sagara/static/media/work4.2f24fb5f037451324593.jpg",
@@ -10,11 +11,11 @@
     "static/media/work3.jpg": "/henrique-sagara/static/media/work3.6a1b84fc58823f390868.jpg",
     "static/media/work2.jpg": "/henrique-sagara/static/media/work2.e52a0c2981a6c11ba468.jpg",
     "index.html": "/henrique-sagara/index.html",
-    "main.ad35ebec.css.map": "/henrique-sagara/static/css/main.ad35ebec.css.map",
-    "main.f3b255b7.js.map": "/henrique-sagara/static/js/main.f3b255b7.js.map"
+    "main.aba76938.css.map": "/henrique-sagara/static/css/main.aba76938.css.map",
+    "main.936b03ea.js.map": "/henrique-sagara/static/js/main.936b03ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad35ebec.css",
-    "static/js/main.f3b255b7.js"
+    "static/css/main.aba76938.css",
+    "static/js/main.936b03ea.js"
   ]
 }
