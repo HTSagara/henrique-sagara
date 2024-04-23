@@ -1,11 +1,10 @@
 import React from "react";
 import "./About.css";
-import AboutImg from "../../assets/profile.png";
+import AboutImg from "../../assets/about.png";
 import CV from "../../assets/HenriqueResume.pdf";
 import Info from "./Info";
 
-const About = () =>
-{
+const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About me</h2>
@@ -18,7 +17,9 @@ const About = () =>
           <Info />
 
           <p className="about__description">
-            Hey folks! I'm a full-stack developer who loves bringing ideas to life by creating apps and pages with smooth connections between the front-end and back-end. Let's turn your vision into reality! 🌟
+            Hey folks! I'm a full-stack developer who loves bringing ideas to
+            life by creating apps and pages with smooth connections between the
+            front-end and back-end. Let's turn your vision into reality! 🌟
           </p>
 
           <a download="" href={CV} className="button button--flex">
