@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import "./Qualifications.css";
 
-const Qualifications = () => {
+const Qualifications = () =>
+{
   const [toggleState, setToggleState] = useState(0);
 
-  const toggleTab = (index) => {
+  const toggleTab = (index) =>
+  {
     setToggleState(index);
   };
   return (
@@ -99,11 +101,11 @@ const Qualifications = () => {
               <div>
                 <h3 className="qualification__title">Web developer CO-OP</h3>
                 <span className="qualification__subtitle">
-                  Ontario Government - Ministry of Public and Service Delivery -
+                  Ontario Government -
                   Digital Solution and Innovation Unit
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2022 - Present
+                  <i className="uil uil-calendar-alt"></i>07/2023 – 05/2024
                 </div>
               </div>
 
@@ -127,7 +129,7 @@ const Qualifications = () => {
                   Atvos Agroindustrial
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>TBC
+                  <i className="uil uil-calendar-alt"></i>10/2021 — 04/2022
                 </div>
               </div>
             </div>
@@ -139,7 +141,7 @@ const Qualifications = () => {
                   Nissan Motor Co.
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>TBC
+                  <i className="uil uil-calendar-alt"></i>04/2021 — 10/2021
                 </div>
               </div>
 
@@ -165,7 +167,7 @@ const Qualifications = () => {
                   Nissan Motor Co.
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>TBC
+                  <i className="uil uil-calendar-alt"></i>10/2019 — 04/2021
                 </div>
               </div>
             </div>
@@ -177,7 +179,7 @@ const Qualifications = () => {
                   Nissan Motor Co.
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>TBC
+                  <i className="uil uil-calendar-alt"></i>04/2018 — 07/2019
                 </div>
               </div>
 
@@ -201,7 +203,7 @@ const Qualifications = () => {
                   Nissan Motor Co.
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>TBC
+                  <i className="uil uil-calendar-alt"></i>07/2017 — 04/2018
                 </div>
               </div>
             </div>
