@@ -21,3 +21,8 @@ Welcome to my portfolio website! This site serves as a showcase of my skills, pr
 **- JavaScript:** Implementing JavaScript to add interactivity and functionality to the website.
 
 **- Bootstrap:** Leveraging Bootstrap framework for styling and layout components to ensure consistency and responsiveness across different devices.
+
+## Deployment
+The website was deployed using Github Pages. Follow the link for the tutorial that I followed on how to deploy a React website.
+*https://www.youtube.com/watch?v=Q9n2mLqXFpU&t=374s
+*Link for my website: https://htsagara.github.io/henrique-sagara/
