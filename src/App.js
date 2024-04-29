@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
@@ -9,8 +9,14 @@ import Contact from "./components/contact/Contact";
 import Footer from "./footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Portfolio from "./components/portfolio/Portfolio";
+import ReactGA from "react-ga";
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("G-4Q5436GYH1");
+
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <>
       <Header />
