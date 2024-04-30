@@ -2,20 +2,15 @@
 import React, { useState, useEffect } from "react";
 import "./Skills.css";
 import Category from "./Category";
-import Backend from "./Backend";
 import { skillsList } from "./SkillsList";
 
-const Skills = () =>
-{
+const Skills = () => {
   const [categories, setCategories] = useState([]);
 
-  useEffect(() =>
-  {
+  useEffect(() => {
     // Group skills by category
-    const groupedSkills = skillsList.reduce((acc, skill) =>
-    {
-      if (!acc[skill.category])
-      {
+    const groupedSkills = skillsList.reduce((acc, skill) => {
+      if (!acc[skill.category]) {
         acc[skill.category] = [];
       }
       acc[skill.category].push(skill);
@@ -33,7 +28,6 @@ const Skills = () =>
         {categories.map(([category, skills]) => (
           <Category key={category} category={category} skills={skills} />
         ))}
-        <Backend />
       </div>
     </section>
   );
