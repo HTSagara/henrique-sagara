@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/henrique-sagara/static/css/main.aba76938.css",
-    "main.js": "/henrique-sagara/static/js/main.320bc126.js",
+    "main.js": "/henrique-sagara/static/js/main.14be6960.js",
     "static/media/profile.JPG": "/henrique-sagara/static/media/profile.68df12742f8a9e9949b5.JPG",
     "static/media/about.png": "/henrique-sagara/static/media/about.8a42d5a66b0b602dce2e.png",
     "static/media/work1.jpg": "/henrique-sagara/static/media/work1.9a8e21dbea40aba70f49.jpg",
@@ -12,10 +12,10 @@
     "static/media/work2.jpg": "/henrique-sagara/static/media/work2.e52a0c2981a6c11ba468.jpg",
     "index.html": "/henrique-sagara/index.html",
     "main.aba76938.css.map": "/henrique-sagara/static/css/main.aba76938.css.map",
-    "main.320bc126.js.map": "/henrique-sagara/static/js/main.320bc126.js.map"
+    "main.14be6960.js.map": "/henrique-sagara/static/js/main.14be6960.js.map"
   },
   "entrypoints": [
     "static/css/main.aba76938.css",
-    "static/js/main.320bc126.js"
+    "static/js/main.14be6960.js"
   ]
 }
