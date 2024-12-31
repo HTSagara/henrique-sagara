@@ -7,38 +7,39 @@ import Work5 from "../../assets/work5.jpg";
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
-    title: "Timesheet-app",
-    category: "web",
-    link: "https://github.com/CoffeeCollab/Timesheet-App",
+    image: Work2,
+    title: "WordVision",
+    description:
+      "ePub reading experience by integrating industry trends AI-powered image generation directly within the text.",
+    category: "app",
+    link: "https://github.com/WordVision/wordvision-app",
   },
   {
     id: 2,
-    image: Work2,
-    title: "Web App",
-    category: "web",
-    link: "https://taupe-lemur-cuff.cyclic.app/",
+    image: Work3,
+    title: "Readme Genie",
+    description:
+      "An open-source Python script that generates a markdown README file using AI LLMs such as Groq and Cohere APIs.",
+    category: "app",
+    link: "https://test.pypi.org/project/ReadmeGenie/",
   },
   {
     id: 3,
-    image: Work3,
-    title: "Investment App",
-    category: "app",
-    link: "https://github.com/HTSagara/investment_portfolio_management_app",
+    image: Work4,
+    title: "Fragments Microservice",
+    description:
+      "Backend Node.js based API designed for managing data fragments by leveraging cloud-native technologies such as AWS S3, AWS DynamoDB, and AWS Cognito",
+    category: "data",
+    link: "https://github.com/htsagara/fragments/",
   },
   {
     id: 4,
-    image: Work4,
-    title: "Amazon Rainforest Firespots Dashboard",
-    category: "data",
-    link: "https://public.tableau.com/app/profile/henrique.sagara/viz/AmazonRainforestFirespots/Dashboard1"
-  },
-  {
-    id: 5,
-    image: Work5,
-    title: "Parking application",
-    category: "app",
-    link: "https://github.com/HTSagara/parking-application-mockup",
+    image: Work1,
+    title: "Timesheet-app",
+    description:
+      "Web application that allows employees to record their work shifts",
+    category: "web",
+    link: "https://github.com/CoffeeCollab/Timesheet-App",
   },
 ];
 

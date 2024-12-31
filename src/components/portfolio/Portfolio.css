@@ -22,12 +22,19 @@
 }
 
 .work__container {
-  grid-template-columns: repeat(2, max-content);
-  gap: 3rem;
-  justify-content: center;
+  display: flex; /* Use flexbox for better control */
+  flex-direction: column; /* Stack items vertically */
+  gap: 1.5rem; /* Space between each project card */
+  align-items: center; /* Center the cards horizontally */
+  max-width: 600px; /* Optional: Limit the container width */
+  margin: 0 auto; /* Center the container on the page */
 }
 
 .work__card {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  width: 100%;
+  gap: 1.5rem; /* Space between image and content */
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
@@ -35,9 +42,20 @@
 }
 
 .work__img {
-  width: 295px;
-  border-radius: 1rem;
-  margin-bottom: var(--mb-1);
+  width: 200px; /* Set a fixed width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0.5rem;
+  object-fit: cover; /* Ensure image covers the space properly */
+  margin-bottom: 0; /* Remove margin */
+}
+
+/* Content on the right side */
+.work__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Take up available space */
+  max-width: 400px; /* Limit content width */
+  overflow-wrap: break-word; /* Ensure text wraps properly */
 }
 
 .work__title {
@@ -46,12 +64,22 @@
   margin-bottom: var(--mb-0-5);
 }
 
+/* Description */
+.work__description {
+  font-size: var(--small-font-size);
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  word-wrap: break-word; /* Break long words if necessary */
+  line-height: 1.4; /* Improve readability with line spacing */
+}
+
 .work__button {
   color: var(--text-color);
   font-size: var(--small-font-size);
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
+  margin-top: auto; /* Push button to the bottom if content expands */
 }
 
 .work__button-icon {
@@ -71,7 +99,7 @@
 
 /* ================= BREAKPOINTS ================= */
 /* Large screen devices */
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   .work__container {
     gap: 1.25rem;
   }
@@ -87,12 +115,17 @@
   .work__title {
     margin-bottom: 0.25rem;
   }
-}
+} */
 
 /* Medium screen devices */
-@media screen and (max-width: 768px) {
-  .work__container {
-    grid-template-columns: max-content;
+/* @media screen and (max-width: 768px) {
+  .work__card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .work__img {
+    width: 100%;
   }
 }
 
@@ -104,10 +137,10 @@
   .work__img {
     width: 100%;
   }
-}
+} */
 
 /* Small devices */
-@media screen and (max-width: 350px) {
+/* @media screen and (max-width: 350px) {
   .work__item {
     font-size: var(--small-font-size);
   }
@@ -115,4 +148,4 @@
   .work__filters {
     column-gap: 0.25rem;
   }
-}
+} */

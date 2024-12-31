@@ -2,39 +2,38 @@ import React, { useEffect, useState } from "react";
 import { projectsData, projectsNav } from "./Data";
 import WorkItems from "./WorkItems";
 
-const Projects = () =>
-{
-  const [item, setItem] = useState({ name: 'all' })
-  const [projects, setPorjects] = useState([])
-  const [active, setActive] = useState(0)
+const Projects = () => {
+  const [item, setItem] = useState({ name: "all" });
+  const [projects, setProjects] = useState([]);
+  const [active, setActive] = useState(0);
 
-  useEffect(() =>
-  {
-    if (item.name === 'all')
-    {
-      setPorjects(projectsData);
-    } else
-    {
-      const newProjects = projectsData.filter((project) =>
-      {
+  useEffect(() => {
+    if (item.name === "all") {
+      setProjects(projectsData);
+    } else {
+      const newProjects = projectsData.filter((project) => {
         return project.category === item.name;
       });
-      setPorjects(newProjects);
+      setProjects(newProjects);
     }
   }, [item]);
 
-  const handleClick = (e, index) =>
-  {
+  const handleClick = (e, index) => {
     setItem({ name: e.target.textContent });
-    setActive(index)
+    setActive(index);
   };
   return (
     <div>
       <div className="work__filters" id="portfolio">
-        {projectsNav.map((item, index) =>
-        {
+        {projectsNav.map((item, index) => {
           return (
-            <span onClick={(e) => { handleClick(e, index) }} className={`${active === index ? 'active-work' : ''} work__item`} key={index}>
+            <span
+              onClick={(e) => {
+                handleClick(e, index);
+              }}
+              className={`${active === index ? "active-work" : ""} work__item`}
+              key={index}
+            >
               {item.name}
             </span>
           );
@@ -42,8 +41,7 @@ const Projects = () =>
       </div>
 
       <div className="work__container container grid">
-        {projects.map((item) =>
-        {
+        {projects.map((item) => {
           return <WorkItems item={item} key={item.id} />;
         })}
       </div>
