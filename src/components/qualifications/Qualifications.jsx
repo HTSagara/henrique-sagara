@@ -37,6 +37,18 @@ const Qualifications = () => {
             <i className="uil uil-briefcase-alt  qualification__icon"></i>
             Experience
           </div>
+
+          <div
+            className={
+              toggleState === 3
+                ? "qualification__button qualification__active button--flex"
+                : "qualification__button button--flex"
+            }
+            onClick={() => toggleTab(3)}
+          >
+            <i className="uil uil-github-alt  qualification__icon"></i>
+            Open-source
+          </div>
         </div>
 
         <div className="qualification__sections">
@@ -201,6 +213,66 @@ const Qualifications = () => {
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>07/2017 — 04/2018
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            className={
+              toggleState === 3
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
+            }
+          >
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  <a
+                    href="https://github.com/slackapi/bolt-python/pull/1220"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Deprecation Warnings
+                  </a>
+                </h3>
+                <span className="qualification__subtitle">
+                  <a href="https://github.com/slackapi/bolt-python">
+                    Slack Bolt
+                  </a>
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>Dec/2024
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  <a href="https://github.com/slackapi/python-slack-sdk/pull/1598">
+                    Adding Trailing Slash to URL
+                  </a>
+                </h3>
+                <span className="qualification__subtitle">
+                  <a href="https://github.com/slackapi/python-slack-sdk">
+                    Slack SDK
+                  </a>
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>Nov/2024
                 </div>
               </div>
             </div>
