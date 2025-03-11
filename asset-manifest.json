@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/henrique-sagara/static/css/main.4a772f06.css",
+    "main.js": "/henrique-sagara/static/js/main.46f62098.js",
+    "static/media/profile.JPG": "/henrique-sagara/static/media/profile.68df12742f8a9e9949b5.JPG",
+    "static/media/about.png": "/henrique-sagara/static/media/about.8a42d5a66b0b602dce2e.png",
+    "static/media/work1.jpg": "/henrique-sagara/static/media/work1.9a8e21dbea40aba70f49.jpg",
+    "static/media/HenriqueResume.pdf": "/henrique-sagara/static/media/HenriqueResume.68cb56900ae2002ef338.pdf",
+    "static/media/work4.jpg": "/henrique-sagara/static/media/work4.2f24fb5f037451324593.jpg",
+    "static/media/work3.jpg": "/henrique-sagara/static/media/work3.6a1b84fc58823f390868.jpg",
+    "static/media/work2.jpg": "/henrique-sagara/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "index.html": "/henrique-sagara/index.html",
+    "main.4a772f06.css.map": "/henrique-sagara/static/css/main.4a772f06.css.map",
+    "main.46f62098.js.map": "/henrique-sagara/static/js/main.46f62098.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a772f06.css",
+    "static/js/main.46f62098.js"
+  ]
+}
